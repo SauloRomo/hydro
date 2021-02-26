@@ -1,0 +1,102 @@
+img.logo {
+    border-radius: 10rem;
+    height: 3rem;
+}
+
+a.py-2.d-none.d-md-inline-block {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+
+.height-40rem {
+    height: 70rem;
+}
+.height-40rem > div >  div > img{
+    border-radius: 1rem;
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+   .section-video {
+    height: 40rem;
+    position: relative;
+   }
+
+   .vidContain {
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+        position: absolute;
+}
+video {
+    position:absolute;
+    z-index:0;
+        width: 100%;
+}
+
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+  }
+  
+  
+  .product-device-2 {
+    bottom: 0;
+    left: 5%;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+  
